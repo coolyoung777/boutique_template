@@ -28,5 +28,33 @@
   --el-title: 2.5rem;
  }
  
- 
- 
+ /********** Common Style **********/
+ .wrapper{
+  width: 100%;
+  height: auto;
+  overflow: hidden;/* 화면 빠져나가는 것을 가로스크롤로 방지해 주는 것 */
+ }
+
+ .page-interval{
+  padding: 0 1.25rem;
+ }
+
+/* 여백이 넚은 곳 */
+ .narrow-center{
+  width: 100%;
+  max-width: 1320px;
+  margin: auto;
+  height: auto;
+ }
+ /* 여백이 좁은 곳 */
+ .wide-center{
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  height: auto;
+ }
+ .sectiom-padding{
+  padding: var(--el-section) 0;/* 위 아래 4.6rem 좌우 0 이다.*/
+ }
+
+
