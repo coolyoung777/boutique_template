@@ -53,7 +53,7 @@
   margin: auto;
   height: auto;
  }
- .sectiom-padding{
+ .section-padding{
   padding: var(--el-section) 0;/* 위 아래 4.6rem 좌우 0 이다.*/
  }
 
